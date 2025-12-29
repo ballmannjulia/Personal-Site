@@ -26,9 +26,7 @@
   letter-spacing: 0.05em;
   color: #B35A26;
   font-size: 64px;
-
   position: relative;
-  padding-bottom: 10px;
 }
 
 /* linha 
@@ -52,15 +50,54 @@
   background-color: #F4EBDD;
   background-image: url("/img/paper-texture.png");
   background-repeat: repeat;
-  padding-top: 30px;
+  padding-top: 100px;
+   margin: 0 auto; /* CENTRALIZA */
 }
 
-.corpo img {
-  width: 180px;
-  height: 180px;
+.imagem {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
 
   margin: 0 auto; /* CENTRALIZA */
+}
+
+.initial{
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.skill-image {
+  width: 320px;
+  height: 180px;
+  object-fit: cover;
+}
+
+
+.skills-title{
+    color: #B35A26;
+    font-weight: bold;
+}
+
+.skills-text {
+  max-width: 400px;
 }
