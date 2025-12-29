@@ -114,7 +114,7 @@
 }
 
 footer.footer {
-  color: #F4EBDD; /* aplica para todo texto dentro do footer */
+  color: #F4EBDD; 
 }
 
 footer.footer a.nav-link {
@@ -122,5 +122,5 @@ footer.footer a.nav-link {
 }
 
 footer.footer a.nav-link:hover {
-  color: #EADCC7; /* opcional: muda a cor no hover */
+  color: #b99c6f; 
 }
